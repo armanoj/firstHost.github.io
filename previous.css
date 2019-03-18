@@ -1,0 +1,72 @@
+html{
+    min-width:100%;
+}
+.navbar-collapse {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-top: -50px;
+    }
+}
+.buttons{
+    background-color:#3570f1;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    border-radius: 2vh;
+    height: 5vh;
+    font-size: 85%;
+    /* margin-top: 1vh; */
+    /* margin-left: 1vh; */
+    margin-right: 1vh;
+}
+.buttons:hover, .buttons:active {
+    background-color: rgb(29, 96, 219);
+    text-decoration: none;
+  }
+.cc{
+    color: white;
+}
+.cc:hover{
+    color:grey;
+}
+.jumbotron{
+    background-position: 25% 65%;
+    position: relative;
+}
+.jumbotron .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text
+}
+.jumbotron .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(0.9); 
+    background-color: #007bb5;
+  }
+  .zoom-img{
+    transition: transform .2s;
+  }
+  .zoom-img:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+  }
+  
